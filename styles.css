@@ -13,7 +13,8 @@
     position: absolute;
     top: 20px; 
     right: 11px; 
-    
+    color:blue;
+
   }
   
   .header-buttons span {
@@ -28,6 +29,10 @@
     border-radius: 10px; /* Make the corners rounded */
   }
 
+#title{
+    margin-left: 50px;
+
+}
   /*menu content */
   .menu {
     display: flex;
@@ -78,6 +83,18 @@
     line-height: 40px;
     text-align: left;
     background-color: #E9EFF4;
+    display:flex ;
+    align-items: center;
+  }
+
+  .container-title img{
+    
+    height: 40px;
+     width:40px;
+    box-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
   }
 
   .container-element {
@@ -99,3 +116,17 @@
   body {
       background-color: #E3DFDF;
   }
+
+  .containerr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .containerr img{
+    width: 230px;
+    height: 190px;
+  }
+  .containerr table{
+    text-align: left;
+  }
+  
